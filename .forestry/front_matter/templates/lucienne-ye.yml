@@ -1,0 +1,20 @@
+---
+label: lucienne.ye
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: logo
+  label: logo
+- type: field_group_list
+  name: contact_entries
+  label: contact_entries
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: text
+    label: text
